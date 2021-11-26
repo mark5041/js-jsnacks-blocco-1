@@ -11,8 +11,9 @@ let result = 0;
 //     else
 //     {
 //         result += number;
-//         i++
+//         
 //     }
+//     i++
 //     
 // }
 
@@ -21,7 +22,7 @@ for(let x = 0; x < 10; x++)
     let number = parseFloat(prompt("inserisci un numero"));
     if(isNaN(number))
     {
-        i--;
+        x--;
     }
     else
     {

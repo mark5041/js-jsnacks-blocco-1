@@ -7,7 +7,7 @@ const user = prompt("inserisci nome");
 const surname = prompt("inserisci cognome");
 const person = user + ' ' + surname;
 
-// while(i < myArray.length - 1 || find != true)
+// while(i < myArray.length || find != true)
 // {
 //     if(myArray[i] == person)
 //     {
@@ -17,7 +17,7 @@ const person = user + ' ' + surname;
 //     i++;
 // }
 
-for(let x = 0; x < myArray.length - 1; x++)
+for(let x = 0; x < myArray.length; x++)
 {
     if(myArray[x] == person)
     {
